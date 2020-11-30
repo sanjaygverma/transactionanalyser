@@ -62,7 +62,7 @@ class TransactionCSVParserTest {
         {
             List<Transaction> lstCsvRecord = parser.parse(csvFile.getName());
             assertNotNull(lstCsvRecord);
-            assertSame(lstCsvRecord.size(), 7);
+            assertSame(lstCsvRecord.size(), 4);
 
             //assertNotNull(lstCsvRecord.get(0).get("ID"));
         }
